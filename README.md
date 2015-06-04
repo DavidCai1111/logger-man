@@ -64,8 +64,8 @@ this.message //mesaage
 Get a logger, all loggers are saved in a `Map` inside of `logger-man`, so if you try to get a logger with the same name for many times,
 `logger-man` will return the same instance every time.
 
-#### loggerMan.init(options)
-__options__
+#### loggerMan.init(optionObj)
+__optionObj:__
 * stream: target stream you want to write your record to
 * level: logging level
 * formatter: formatter
@@ -75,8 +75,11 @@ Initialize your logger.
 #### loggerMan.debug(msg)/info(msg)/error(msg)/...
 Logging your message with the specialized level.
 
+#### loggerMan.on(level, handler)
+__options__
+* level: record level ('INFO','ERROR'...)
+* handler: callback
 
-
-
+Add your own listener on specialized `level` event.
 
 
