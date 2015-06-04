@@ -1,0 +1,14 @@
+{
+  "name": "logger-man",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "DavidCai",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.10.3"
+  }
+}
