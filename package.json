@@ -1,14 +1,25 @@
 {
   "name": "logger-man",
   "version": "1.0.0",
-  "description": "",
+  "description": "a tiny&useful stream based logging module for node.js",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/.bin/babel --ignore node_modules . --out-dir build && istanbul cover _mocha build/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DavidCai1993/logger-man.git"
   },
   "author": "DavidCai",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.10.3"
+    "moment": "^2.10.3",
+    "object-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
   }
 }
