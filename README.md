@@ -40,7 +40,7 @@ CRITICAL
 If a message's level is before the `level` property of the object you assigned in `init()` method, `logger-man` will ignore it.
 
 ## Formatter
-`logger-man`'s formatter use the ES6 `'template string'` style, you can put all available attributes in `${}`.
+`Logger-man`'s formatter use the ES6 `'template string'` style, you can put all available attributes in `${}`.
 
 The default formatter is:
 ```js
