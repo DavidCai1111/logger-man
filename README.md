@@ -53,7 +53,7 @@ this.name //logger name
 this.level //record level
 this.formatter //formatter string
 this.pid //process id
-this.createdAt //linux time, when you created this logger
+this.createdAt //unix timestamp, when you created this logger
 this.time //readable time, has the struct like : `YYYY/MMMM/D a h:mm:ss`
 this.message //mesaage
 ```
