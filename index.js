@@ -1,4 +1,4 @@
 'use strict';
-import LoggerMan from './lib/LoggerMan'
+import LoggerMan from './lib/LoggerMan';
 
 export default LoggerMan;
